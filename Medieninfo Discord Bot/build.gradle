@@ -3,7 +3,7 @@ plugins {
 }
 
 
-group = "org.MIDB.Main"
+group = "org.MIDB.bot.Main"
 version = "0.0.1"
 
 description = "Medieninformatik Discord Bot."
@@ -18,4 +18,4 @@ dependencies {
     runtimeOnly("org.apache.logging.log4j:log4j-core:2.11.1")
 }
 
-mainClassName = ("org.midb.Main")
+mainClassName = ("org.midb.bot.Main")
